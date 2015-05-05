@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="float_btn">
+        <attr name="size" format="boolean"></attr>
+        <attr name="is_animation" format="boolean"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="shadow_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="ripple">
+        <attr name="ripple_size" format="integer">
+            <enum name="ripple_normal" value="3"/>
+            <enum name="ripple_more" value="4"/>
+            <enum name="ripple_than" value="5"/>
+        </attr>
+
+        <attr name="ripple_speed" format="float"/>
+        <attr name="text_string" format="string"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="bg_color" format="color"/>
+        <attr name="bg_drawable" format="reference"/>
+        <attr name="ripple_color" format="color"/>
+        <attr name="is_animation_is" format="boolean"/>
+    </declare-styleable>
+
+</resources>

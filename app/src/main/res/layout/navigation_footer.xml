@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/navigation_footer_height">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/navigation_logo_divider"
+        android:layout_marginTop="@dimen/list_first_item_margin_top"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+            <android.view.ui.widget.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google ©"
+                android:textSize="@dimen/font_size_14sp"
+                android:paddingBottom="@dimen/list_first_item_margin_top"
+                android:textColor="@color/navigation_text_color"
+                />
+            <android.view.ui.widget.NavigationFooter
+                android:id="@+id/footer_text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                </android.view.ui.widget.NavigationFooter>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

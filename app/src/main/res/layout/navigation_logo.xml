@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_logo_height"
+                android:background="@color/navigation_background">
+
+
+    <ImageView
+        android:layout_width="253px"
+        android:layout_height="112px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/google_logo"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/list_first_item_margin_top"
+        />
+
+    <ImageView
+        android:layout_above="@id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/navigation_logo_divider"/>
+
+</RelativeLayout>

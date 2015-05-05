@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/navigation_background"
+             android:orientation="vertical"
+             tools:context="android.view.ui.fragment.NavigationFragment">
+
+    <ImageView
+        android:id="@+id/navigation_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_size"
+        android:background="@color/colorPrimaryDark"/>
+
+    <android.view.ui.widget.AnimatedExpandableListView
+        android:id="@+id/navigation_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:listSelector="@drawable/navigation_list_selector"
+        android:divider="@color/navigation_background"/>
+
+</LinearLayout>

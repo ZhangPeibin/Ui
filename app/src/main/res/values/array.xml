@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_group">
+        <item >Material design</item>
+        <item >What\'s material?</item>
+        <item >Animation</item>
+        <item >Style</item>
+        <item >Layout</item>
+        <item >Components</item>
+        <item >Patterns</item>
+        <item >Usability</item>
+        <item >Resources</item>
+        <item >What\'s new</item>
+    </string-array>
+
+    <string-array name="materialdesign">
+        <item >Introduction</item>
+    </string-array>
+
+    <string-array name="whatismaterial">
+        <item >Environment</item>
+        <item >Material properties</item>
+        <item >Objects in 3D space</item>
+    </string-array>
+
+    <string-array name="animation">
+        <item >Authentic motion</item>
+        <item >Responsive interaction</item>
+        <item >Meaningful transitions</item>
+        <item >Delightful details</item>
+    </string-array>
+
+    <string-array name="style">
+        <item >Color</item>
+        <item >Icons</item>
+        <item >Imagery</item>
+        <item >Typography</item>
+    </string-array>
+
+
+    <string-array name="layout">
+        <item >Principles</item><!-- 原则-->
+        <item >Metrics &amp; keylines</item><!-- 中间缺少&-->
+        <item >Structure</item>
+    </string-array>
+
+    <string-array name="components">
+        <item >Bottom sheets</item>
+        <item >Buttons</item>
+        <item >Cards</item>
+        <item >Chips</item>
+        <item >Dialogs</item>
+        <item >Dividers</item>
+        <item >Grids</item>
+        <item >Lists</item>
+        <item >List controls</item>
+        <item >Menus</item>
+        <item >Pickers</item>
+        <item >Progress &amp; activity</item><!-- 中间缺少&-->
+        <item >Sliders</item>
+        <item >Snackbars &amp; toasts</item><!-- 中间缺少&-->
+        <item >Subheaders</item>
+        <item >Switches</item>
+        <item >Tabs</item>
+        <item >Text field</item>
+        <item >Tooltips</item>
+    </string-array>
+
+    <string-array name="patterns">
+        <item >Data formats</item>
+        <item >Errors</item>
+        <item >Gestures</item>
+        <item >Loading images</item>
+        <item >Navigation drawer</item>
+        <item >Navigation transitions</item>
+        <item >Scrolling techniques</item>
+        <item >Search</item>
+        <item >Selection</item>
+        <item >Settings</item>
+        <item >Swipe to refresh</item>
+    </string-array>
+
+    <string-array name="usability">
+        <item >Accessibility</item>
+        <item >Bidirectionality</item>
+    </string-array>
+
+    <string-array name="resources">
+        <item >Color palettes</item>
+        <item >Layout templates</item>
+        <item >Roboto Noto &amp; fonts</item><!-- 缺少&-->
+        <item >Sticker sheets \&amp; icons</item><!-- 缺少&-->
+    </string-array>
+
+    <string-array name="whatisnew">
+        <item >What\'s new</item>
+    </string-array>
+
+</resources>

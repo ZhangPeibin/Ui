@@ -1,0 +1,21 @@
+@author name-text  -> 标明作者
+
+@deprecated -> 过期的API    -> @deprecated As of JDK 1.1 replaced by x{}
+
+{@code text}  -> 显示code
+
+{@docRoot}/xxx.html ->指定当前文档的根目录的路径，后面直接跟该目录下的文件
+
+{@inheritDoc} ->从父类继承的注释
+
+{@link package.class#member label} ->到另一个注释文档的链接 -> Use the {@link #getComponentAt(int, int) getComponentAt} method
+
+@param parameter-name description ->方法的参数
+
+@return description -> 方法返回值
+
+@see reference -> 到另一个主题的链接
+
+{@value package.class#field} ->显示指定的常量值
+
+@version version-text -> 表明版本
